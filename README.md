@@ -1,4 +1,4 @@
-# routeman
+# Simple gateway switcher
 
 ## Project setup
 ```
