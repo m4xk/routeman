@@ -1,7 +1,7 @@
 <template>
     <div id="app">
         <dash/>
-        <span class="version">routeman v. {{appVersion}}</span>
+        <span class="version">routeman v.{{appVersion}}</span>
     </div>
 </template>
 
@@ -28,16 +28,13 @@
 </script>
 
 <style>
-    html, body {
-
-    }
 
     .version {
         font-size: 12px;
         color: #CCC;
         position: absolute;
         top: 0px;
-        right: 50px
+        right: 5px
     }
 
     #app {
@@ -48,5 +45,6 @@
         text-align: center;
         color: #2c3e50;
         margin-top: 60px;
+        overflow-x: hidden;
     }
 </style>

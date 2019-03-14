@@ -7,10 +7,7 @@ import VueResource from 'vue-resource';
 Vue.use(Element,{locale});
 Vue.use(VueResource);
 
-
-
 Vue.config.productionTip = false;
-
 
 new Vue({
   render: h => h(App),

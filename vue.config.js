@@ -10,5 +10,4 @@ module.exports = {
             })
         ]
     },
-// the rest of your original module.exports code goes here
 }
